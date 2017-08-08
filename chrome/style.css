@@ -1,0 +1,27 @@
+
+body {
+	min-width: 200px;
+	min-height: 100%;
+	margin: 0px;
+	font-family: 'Segoe UI', 'Arial', sans-serif;
+	background-color: #F2F2F2;
+	text-align: center;
+}
+
+#approx-time {
+	font-family: 'Abel', sans-serif;
+	margin-top: 5%;
+	color: #1E61A1;
+	font-size: medium;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#exact-time {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-top: 5%;
+	color: #5D5E58;
+	font-size: large;
+	font-weight: bold;
+	margin-bottom: 5%;
+}

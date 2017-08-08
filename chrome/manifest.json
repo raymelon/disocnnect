@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Offline Timer",
+  "description": "Times your facebook away times",
+  "version": "1.0",
+
+  // "content_scripts": [{
+  //   "matches": ["<all_urls>"],
+  //   "css": ["style.css"],
+  //   "js": ["moment.js", "popup.js", "moment-duration-format.js"]
+  // }],
+
+  "background": {
+    "scripts": ["background.js", "moment.js", "moment-duration-format.js", "ping.js"]
+  },
+
+  "browser_action": {
+   "default_icon": "crescent-moon.png",
+   "default_popup": "popup.html"
+  },
+
+  "permissions": [
+        "tabs",
+        "topSites",
+        "history",
+        "storage",
+        "sessions",
+        "webNavigation",
+        "http://*/*",
+        "https://*/*"
+  ]          
+}
